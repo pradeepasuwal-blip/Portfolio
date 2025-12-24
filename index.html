@@ -1,1 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pradeepa Suwal — Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Portfolio of Pradeepa Suwal — Computer Engineering student at Khwopa Engineering College">
+  </head>
+  <body>
+    <header class="hero">
+      <div class="container hero-grid">
+        <div class="profile">
+          <div class="avatar">PS</div>
+          <div>
+            <h1>Pradeepa Suwal</h1>
+            <p class="title">Computer Engineering Student — Khwopa Engineering College</p>
+            <p class="location">Kathmandu, Nepal</p>
+            <div class="links">
+              <a href="#projects" class="btn">Projects</a>
+              <a href="#contact" class="btn outline">Contact</a>
+              <a href="mailto:pradeepa@example.com" class="btn ghost">Email</a>
+            </div>
+          </div>
+        </div>
+        <p class="intro">I build clean, accessible web apps and embedded systems. I enjoy learning new technologies and turning ideas into working prototypes.</p>
+      </div>
+    </header>
+
+    <main class="container">
+      <section id="about" class="card">
+        <h2>About</h2>
+        <p>I am a Computer Engineering student at Khwopa Engineering College focused on software development, embedded systems, and full-stack web projects. I like collaborating on open-source, solving real-world problems, and learning systems-level programming.</p>
+      </section>
+
+      <section id="projects" class="card">
+        <div class="section-head">
+          <h2>Projects</h2>
+          <input id="project-search" placeholder="Search projects" aria-label="Search projects">
+        </div>
+        <div class="projects-grid">
+          <article class="project" data-tags="web,frontend">
+            <h3>Taskify — To-do Web App</h3>
+            <p>A responsive to-do app with local persistence, tags, and keyboard shortcuts.</p>
+            <p class="meta">Tech: HTML, CSS, JavaScript</p>
+            <div class="project-links"><a href="#" target="_blank">Repo</a></div>
+          </article>
+
+          <article class="project" data-tags="embedded,hardware">
+            <h3>SmartPlant — IoT Plant Monitor</h3>
+            <p>An Arduino-based moisture and light monitor that reports data to a small web dashboard.</p>
+            <p class="meta">Tech: C/C++, ESP8266, MQTT</p>
+            <div class="project-links"><a href="#" target="_blank">Repo</a></div>
+          </article>
+
+          <article class="project" data-tags="web,fullstack">
+            <h3>Portfolio Generator</h3>
+            <p>A Node/Express tool to scaffold personal portfolio sites from a single YAML file.</p>
+            <p class="meta">Tech: Node.js, Express, Handlebars</p>
+            <div class="project-links"><a href="#" target="_blank">Repo</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="card">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+          <li>Languages: C, C++, Python, JavaScript</li>
+          <li>Web: HTML, CSS, JavaScript, Node.js</li>
+          <li>Embedded: Arduino, ESP8266/ESP32</li>
+          <li>Tools: Git, Linux, VS Code</li>
+        </ul>
+      </section>
+
+      <section id="education" class="card">
+        <h2>Education</h2>
+        <p><strong>Khwopa Engineering College</strong> — B.E. Computer Engineering (In progress)</p>
+        <p>Relevant coursework: Data Structures, Embedded Systems, Operating Systems, Web Development</p>
+      </section>
+
+      <section id="experience" class="card">
+        <h2>Experience</h2>
+        <p><strong>Student Intern</strong> — (Example) Embedded Systems Project — Summer Internship</p>
+        <p>Worked on sensor integration, firmware development and a small web dashboard to visualize telemetry.</p>
+      </section>
+
+      <section id="contact" class="card">
+        <h2>Contact</h2>
+        <form id="contact-form">
+          <label>Name <input type="text" name="name" required></label>
+          <label>Email <input type="email" name="email" required></label>
+          <label>Message <textarea name="message" rows="5" required></textarea></label>
+          <div class="form-actions"><button type="submit" class="btn">Send</button> <button type="button" id="copy-email" class="btn outline">Copy Email</button></div>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Made by Pradeepa Suwal — Computer Engineering student at Khwopa Engineering College</p>
+        <p class="small">Links: <a href="#">GitHub</a> · <a href="#">LinkedIn</a></p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
 <h1>Pradeepa Suwal</h1>
